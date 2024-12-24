@@ -1,12 +1,25 @@
-import './App.css'
 
-function App() {
+// App --> This is main component or root component
 
+function App(){
+  alert(SecondComponent())
   return (
-    <>
-      <h1>Hello React - 19</h1>
-    </>
+    <div>
+      <h1>My react components - Count : {SecondComponent()}</h1>
+      <FirstComponent />
+      <SecondComponent />
+    </div>
   )
 }
 
-export default App
+// Component - 1
+function FirstComponent(){
+  return <h2>First component : Count is - {SecondComponent()}</h2>
+}
+
+// Component - 2
+function SecondComponent(){
+  return 10+10
+}
+
+export default App;
