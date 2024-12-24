@@ -1,12 +1,14 @@
-import './App.css'
+import Login, {Profile, Setting} from "./UserComponent.jsx";
 
-function App() {
-
+function App(){
   return (
-    <>
-      <h1>Hello React - 19</h1>
-    </>
+    <div>
+      <h1>React Import - Export component</h1>
+      <Login />
+      <Profile />
+      <Setting />
+    </div>
   )
 }
 
-export default App
+export default App;
