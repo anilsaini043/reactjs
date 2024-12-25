@@ -12,6 +12,14 @@ function App(){
     return a*b
   }
 
+  const show = ()=> {
+    alert("Without params")
+  }
+
+  const show2 = (a)=> {
+    alert("With params - "+ a)
+  }
+
   return (
     <div>
       <h1>React Import - Export component</h1>
@@ -21,10 +29,14 @@ function App(){
       <Login />
       <Profile />
       <Setting />
+
+      {/* Onclick event */}
+      <button onClick={show}>Click without param</button>  
+      <button onClick={()=>show2("Apple")}>Click with param</button>
     </div>
   )
 
-  // return createElement("h1",{id:"customID", class: "customClass"}, "Creating HTML element by react only")
+  // return createElement("h1",{id:"customID", className: "customClass"}, "Creating HTML element by react only")
 }
 
 export default App;
