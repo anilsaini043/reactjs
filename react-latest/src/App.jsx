@@ -1,26 +1,15 @@
 import { useState } from "react";
-import Counter from "./Counter.jsx";
+// import Toggle from "./Toggle.jsx";
+import PropsComp from "./PropsComp.jsx";
 
 function App(){
-  const [ name, setName ] = useState("Anil Kumar");
-  const [show, setShow] =  useState(true);
-
-  const changeName = () => {
-    setName("Anil Kumar Saini")
-  }
+  const [name] = useState("Anil");
+  const [skill] =  useState("ReactJs")
 
   return (
     <div>
-      <h1>My name is : {name}</h1>
-      <button onClick={changeName}>Change Name</button>
-      <Counter />
-
-      <h2>Show hide feature</h2>
-      {
-        show ? <h3>Toggle me</h3> : null
-      }
-
-      <button onClick={()=> setShow(!show)}>Click to toggle</button>
+      {/* <Toggle /> */}
+      <PropsComp name={name} skill={skill} />
     </div>
   )
  

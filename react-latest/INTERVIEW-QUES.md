@@ -6,4 +6,4 @@
 # What is JSX
 # Install react RC version : npm install react@rc  ----> RC --> Release candidate
 # What is Hooks
-# 
+# What is Props
