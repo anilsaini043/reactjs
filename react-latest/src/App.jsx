@@ -3,7 +3,10 @@
 // import PropsComp from "./PropsComp.jsx";
 // import JSXCOMP from "./JSXwithProps.jsx";
 // import CONTROLINPUT from "./Input.jsx";
-import Checkbox from "./Checkbox.jsx";
+// import Checkbox from "./Checkbox.jsx";
+// import Radio from "./Radio.jsx";
+import Dropdown from "./Dropdown.jsx";
+
 function App(){
   // const [name] = useState("Anil");
   // const [skill] =  useState("ReactJs")
@@ -26,7 +29,13 @@ function App(){
       {/* <CONTROLINPUT /> */}
 
       {/* Handled Checkbox */}
-      <Checkbox />
+      {/* <Checkbox /> */}
+
+      {/* Handled Radio selection */}
+        {/* <Radio /> */}
+      
+      {/* Handled Dropdown seletion */}
+      <Dropdown />
     </div>
   )
  
