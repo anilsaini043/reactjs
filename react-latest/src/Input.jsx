@@ -3,7 +3,8 @@ import { useState } from "react";
 const CONTROLINPUT = ()=> {
     const [name, setName] = useState("")
     return (
-        <div style={{width: '500px', padding: '10px', margin: '20px'}}>
+        <div style={{margin: '20px'}}>
+            <h1>Controlled component</h1>
             <input type="text" value={name} onChange={(e)=> setName(e.target.value)} placeholder="Type here..."></input>
             <h2>
                 Entered input value is : {name}

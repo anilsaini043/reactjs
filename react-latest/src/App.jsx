@@ -1,9 +1,9 @@
 // import { useState } from "react";
 // import Toggle from "./Toggle.jsx";
 // import PropsComp from "./PropsComp.jsx";
-import JSXCOMP from "./JSXwithProps.jsx";
-import CONTROLINPUT from "./Input.jsx";
-
+// import JSXCOMP from "./JSXwithProps.jsx";
+// import CONTROLINPUT from "./Input.jsx";
+import Checkbox from "./Checkbox.jsx";
 function App(){
   // const [name] = useState("Anil");
   // const [skill] =  useState("ReactJs")
@@ -12,7 +12,7 @@ function App(){
     <div>
       {/* <Toggle /> */}
       {/* <PropsComp name={name} skill={skill} /> */}
-      <JSXCOMP color="red">
+      {/* <JSXCOMP color="red">
         <h1>Hello Anil</h1>
         <h2>I am JSX as Props</h2>
         <h3>How are you?</h3>
@@ -20,10 +20,13 @@ function App(){
       <JSXCOMP color="blue">
         <h1>Hello Jyoti</h1>
         <h2>I am software engineer</h2>
-      </JSXCOMP>
+      </JSXCOMP> */}
 
       {/* Controlled input component */}
-      <CONTROLINPUT />
+      {/* <CONTROLINPUT /> */}
+
+      {/* Handled Checkbox */}
+      <Checkbox />
     </div>
   )
  
