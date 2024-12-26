@@ -2,6 +2,7 @@
 // import Toggle from "./Toggle.jsx";
 // import PropsComp from "./PropsComp.jsx";
 import JSXCOMP from "./JSXwithProps.jsx";
+import CONTROLINPUT from "./Input.jsx";
 
 function App(){
   // const [name] = useState("Anil");
@@ -20,6 +21,9 @@ function App(){
         <h1>Hello Jyoti</h1>
         <h2>I am software engineer</h2>
       </JSXCOMP>
+
+      {/* Controlled input component */}
+      <CONTROLINPUT />
     </div>
   )
  
